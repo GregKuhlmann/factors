@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100vh;
+}
+
+body {
+  font-family: 
+    ui-sans-serif, 
+    system-ui, 
+    -system-ui, 
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto, Helvetica, Arial, 
+    sans-serif, 
+    "Apple Color Emoji";
+  font-size: 14pt;
+  background: lightblue;
+}
+
+.del {
+  color: red;
+}
+
+#answer {
+  font-size: 144pt;
+  font-weight: 700;
+}
+
+#equals {
+  font-size: 72pt;
+  font-weight: 700;
+}
+
+#times {
+  font-size: 72pt;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+header {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: white;
+}
+
+.equation {
+  display: grid;
+  grid-template-columns: 200px 80px 200px 160px 200px;
+}
+
+.equation > div {
+  font-size: 72pt;
+  font-weight: 700;
+  margin: 10px;
+  text-align: center;
+}
+
+.stats-label {
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.factors {
+  display: flex;
+  flex-direction: row;
+}
+
+.factor-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+button {
+  font-size: 24pt;
+}

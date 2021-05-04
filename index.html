@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Factors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="bdy">
+    <header>
+      <div class="stats-label">Problem:</div>
+      <div id="problem"></div>
+      <div class="stats-label">Total Time:</div>
+      <div id="totalTime"></div>
+      <div class="stats-label">Score:</div>
+      <div id="score"></div>
+    </header>
+    <main>
+      <div class="equation">
+        <div id="product">84</div>
+        <div>=</div>
+        <div id="factor1">12</div>
+        <div>x</div>
+        <div id="factor2">7</div>
+        <div></div>
+        <div></div>
+        <div class="factor-container">
+          <button id="factor1_2" onClick="handleButton(this);">2</button>
+          <button id="factor1_3" onClick="handleButton(this);">3</button>
+          <button id="factor1_4" onClick="handleButton(this);">4</button>
+          <button id="factor1_5" onClick="handleButton(this);">5</button>
+          <button id="factor1_6" onClick="handleButton(this);">6</button>
+          <button id="factor1_7" onClick="handleButton(this);">7</button>
+          <button id="factor1_8" onClick="handleButton(this);">8</button>
+          <button id="factor1_9" onClick="handleButton(this);">9</button>
+          <button id="factor1_10" onClick="handleButton(this);">10</button>
+          <button id="factor1_11" onClick="handleButton(this);">11</button>
+          <button id="factor1_12" onClick="handleButton(this);">12</button>
+          <button class="factor del" id="factor1_del" onClick="handleButton(this);">␡</button>
+        </div>
+        <div></div>
+        <div class="factor-container">
+          <button id="factor2_2" onClick="handleButton(this);">2</button>
+          <button id="factor2_3" onClick="handleButton(this);">3</button>
+          <button id="factor2_4" onClick="handleButton(this);">4</button>
+          <button id="factor2_5" onClick="handleButton(this);">5</button>
+          <button id="factor2_6" onClick="handleButton(this);">6</button>
+          <button id="factor2_7" onClick="handleButton(this);">7</button>
+          <button id="factor2_8" onClick="handleButton(this);">8</button>
+          <button id="factor2_9" onClick="handleButton(this);">9</button>
+          <button id="factor2_10" onClick="handleButton(this);">10</button>
+          <button id="factor2_11" onClick="handleButton(this);">11</button>
+          <button id="factor2_12" onClick="handleButton(this);">12</button>
+          <button class="factor del" id="factor2_del" onClick="handleButton(this);">␡</button>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div id="button-area">
+          <button id="submit" onClick="handleSubmit();">Submit</button>
+          <div class="hidden" id="done">All done!</div>
+        </div>
+        <div></div>  
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
